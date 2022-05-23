@@ -16,6 +16,7 @@ function fetchData(url_api, callback) { // Aca creamos la funcion y le ponemos l
         }
     }
     xhttp.send(); // Ya si lo que nos regrese de nuestra peticion cumple con lo que necesitamos, nos la mandara para poder acceder a la informacion que deseemos usar
+
 fetchData(API, function (error1, data1) { // Acá yaa creamos la funcion como tal donde se verá el procedimiento por el cual pasará la informacion que pedimos de la API
     if (error1) return console.error(error1);
     fetchData(API + data1.results[0].id, function(error2, data2) {
