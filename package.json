@@ -1,0 +1,29 @@
+{
+  "name": "curso-asincronismo-javascript",
+  "version": "1.0.0",
+  "description": "trabajaremos asincronismo con JavaScript",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js",
+    "callback:challenge": "node src/callback/challenge.js",
+    "promise": "node src/promise/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imbryanzz/Curso-Asincronismo-JavaScript.git"
+  },
+  "keywords": [
+    "callbacks",
+    "promise",
+    "async"
+  ],
+  "author": "Bryan Valentierra Talero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imbryanzz/Curso-Asincronismo-JavaScript/issues"
+  },
+  "homepage": "https://github.com/imbryanzz/Curso-Asincronismo-JavaScript#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
